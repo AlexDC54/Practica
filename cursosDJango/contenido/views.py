@@ -11,3 +11,7 @@ def contacto(request):
 def mi_pagina(request):
     return render(request, 'contenido/base.html')
 
+
+def mi_imagen(request):
+    return render(request, 'contenido/imagen.html')   
+

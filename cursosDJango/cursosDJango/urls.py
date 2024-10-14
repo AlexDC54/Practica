@@ -26,5 +26,7 @@ urlpatterns = [
 
     path('encabezado/', views.mi_pagina, name='Encabezado'),
 
+    path('pagina/', views.mi_pagina, name='imagen prueba'),
+
 
 ]
